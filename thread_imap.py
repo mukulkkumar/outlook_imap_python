@@ -8,7 +8,7 @@ email_address = "*******@outlook.com"
 password = "**********"
 
 # Connect to the Outlook server
-imap_server = "imap.outlook.com"  # Use the appropriate IMAP server for your Outlook account
+imap_server = "imap.outlook.com"
 mailbox = imaplib.IMAP4_SSL(imap_server)
 
 # Log in to your account
